@@ -27,5 +27,22 @@ tempString = "My name is {} {}"
 print(tempString.format("nikhil", "raju"))
 print(tempString) #prints unformatted string
 
+# find()
+tempString = "Bangalore"
+print(tempString.find("a"))
+
+# isdigit(), #isalpha()
+tempString = "Bangalore"
+tempString2 = "23424"
+tempString3 = "abc123"
+print(tempString.isalpha())
+
+print(tempString2.isdigit())
+print(tempString3.isdigit())
+
+# isdigit vs isnumeric
+print(tempString2.isnumeric())
+print(tempString3.isnumeric())
+
 
 
